@@ -1,0 +1,13 @@
+{
+    "watch": [
+        "src"
+    ],
+    "ext": "ts, js, json",
+    "ignore": [
+        "node_modules",
+        "dst",
+        "coverage",
+        "src/**/*.test.ts"
+    ],
+    "exec": "tsx src/server.ts"
+}
