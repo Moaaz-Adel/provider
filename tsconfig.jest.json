@@ -1,6 +1,6 @@
 {
   "extends": "./tsconfig.json",
-  "exclude": ["**/cypress.d.ts", "**/cypress", "**/*.cy.ts*"],
+  "exclude": ["**/cypress.d.ts", "**/cypress", "**/*.cy.ts*", "prisma"],
   "compilerOptions": {
     "types": ["@types/jest"]
   },

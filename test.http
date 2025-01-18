@@ -1,0 +1,11 @@
+@baseUrl = http://localhost:3001
+
+###
+# @name = generate Token
+
+GET {{baseUrl}}/auth/fake-token
+
+###
+# @name = heartbeat
+
+GET {{baseUrl}}/
